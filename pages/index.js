@@ -9,7 +9,7 @@ const HomePage = () => {
   const [withdrawAmount, setWithdrawAmount] = useState("");
   const [depositAmount, setDepositAmount] = useState("");
   const [accountClosed, setAccountClosed] = useState(false);
-  const [ownerName, setOwnerName] = useState("Chintu");
+  const [ownerName, setOwnerName] = useState("Shashi Pretham");
   const [transactionStatus, setTransactionStatus] = useState("");
   const [balance, setBalance] = useState(undefined);
 
@@ -218,7 +218,7 @@ const HomePage = () => {
   return (
     <main className="container">
       <header>
-        <h1>Welcome to the Metacrafters ATM!</h1>
+        <h1>Welcome Shashi pretham</h1>
       </header>
       {initUser()}
       <style jsx>{`
